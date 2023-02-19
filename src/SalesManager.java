@@ -17,11 +17,11 @@ public class SalesManager {
         return max;
     }
 
-    public int averageCropped() {
-        int minMeaning = 0;
-        int maxMeaning = 0;
-        int sumMeaning = 0;
-        for (int sale : sales) {
+    public long averageCropped() {
+        long minMeaning = 0;
+        long maxMeaning = 0;
+        long sumMeaning = 0;
+        for (long sale : sales) {
             if (minMeaning == 0 || minMeaning > sale) {
                 minMeaning = sale;
             }
