@@ -6,5 +6,7 @@ public class Main {
         SalesManager manager = new SalesManager(sales);
 
         System.out.println(manager.max());
+
+        System.out.println(manager.averageCropped());
         }
 }
